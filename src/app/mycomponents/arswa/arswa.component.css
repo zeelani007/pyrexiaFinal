@@ -1,0 +1,148 @@
+  
+  .president {
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .president img {
+    width: 100%;
+    scale: 1.5;
+  }
+  
+  .img-container {
+    height: 450px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .img-container img {
+    width: 100%;
+    scale: 1.1;
+  }
+  .president-card, .team-card{
+    scale: 1;
+    transition: .5s;
+  }
+  .president-card:hover, .team-card:hover {
+    scale: 1.05;
+  }
+
+
+
+  h1{
+      color:rgb(203, 26, 26);
+      font-size: 5rem;
+      text-shadow: 2px 2px #fbf7f7;
+      font-weight: 600;
+  }
+  h2 {
+    font-size: 2.2rem;
+    margin: .5rem 0;
+    color: white;
+  }
+  h3{ 
+    font-size: 3rem;  
+  }
+  h4{
+    font-size: 3rem;
+    }
+  
+  img{
+      width: 100%;
+      height: 100%;
+      border-radius: 0.5rem;
+      
+  }
+  
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    outline-style: double;
+    
+  }
+  
+  .card {
+    box-shadow: 0 6px 10px 0 rgba(229, 226, 226, 0.2);
+    
+  }
+  
+  
+  .title {
+    color:rgba(205, 182, 182, 0.656)
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #bf0754;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover  {
+    background-color: #555;
+    width: 100%;
+  }
+  
+  button:hover::before{
+    content: attr(data-phone);
+  }
+  
+  .button:hover span{
+    display:none
+  }
+  
+ @media screen and (max-width: 496px){
+    .president {
+        margin: auto;
+        height: 300px;
+        width: 210px;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      
+      .img-container {
+        margin: auto;
+        height: 250px;
+        width: 180px;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+    
+      h1{
+          color:rgb(203, 26, 26);
+          font-size: 3rem;
+          text-shadow: 2px 2px #fbf7f7;
+      }
+      h2 {
+        font-size: 1.5rem;
+        margin: .5rem 0;
+        color: white;
+      }
+      h3 {
+        width: fit-content;
+      margin: auto;
+      font-size: 1.6rem;
+      padding-bottom: 10px;
+      border-bottom:5px solid red;
+      }
+    
+      h4 {
+        font-size: 2rem;
+      }
+    
+
+
+}

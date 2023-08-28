@@ -1,0 +1,14 @@
+<div class="gallary pb-5">
+    <div class="container pb-5">
+        <h2 class="text-center p-5 fw-bolder">PYREXIA GALLERY</h2>
+        <ul class="honeycomb event-gallary pb-5 d-flex flex-wrap gap-3 justify-content-center">
+            <li class="honeycomb-cell" *ngFor="let image of _albums; let i=index">
+            <img class="honeycomb-cell__image" [src]="image.thumb" (click)="open(i)">
+            </li>
+            <li class="honeycomb-cell honeycomb__placeholder"></li>
+        </ul>
+    </div>
+</div>
+
+
+    

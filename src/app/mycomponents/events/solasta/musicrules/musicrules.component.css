@@ -1,0 +1,65 @@
+.dancerules {
+    background: url(../../../../../assets/images/rulebackground.jpg);
+    background-position: center;
+}
+.container {
+    width: 100%;
+}
+.grid-containe {
+    display: grid;
+}
+.bigscreen-table {
+   overflow: scroll;
+}
+.breadcrumb {
+    background-color: rgba(27, 27, 27, 0.61);
+    padding: .5rem;
+}
+.breadcrumb-item, .breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}
+th {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid rgba(94, 91, 91, 0.322);
+    vertical-align: bottom;
+    background-color: rgb(2, 136, 177);
+}
+td {
+    text-align:start;
+    color: rgb(160, 156, 156);
+    padding: .5rem;
+    border: 2px solid rgba(119, 116, 116, 0.322);
+    vertical-align: top;
+}
+td:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+td:nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.eventname {
+    flex: 1;
+    background-color: rgba(255, 0, 0);
+}
+.event-rule {
+    flex: 2;
+}
+.event-container { 
+    color: white;
+    background-color: rgba(0, 0, 0);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:731px) {
+        .event-container {
+            flex-direction: column;
+        }
+        h3 {
+            padding: 1rem;
+        }
+}

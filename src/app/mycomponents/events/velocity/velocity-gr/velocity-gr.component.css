@@ -1,0 +1,22 @@
+@font-face {
+    font-family:AbrilFatface ;
+    src: url(../../../../../assets/fonts/AbrilFatface-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'AbrilFatface', sans-serif;
+}
+.general-rules {
+    background-color: rgba(4, 22, 61, 0.623);
+    backdrop-filter: blur(1px);
+    font-weight: 600;
+}
+@media screen and (max-width:731px) {
+    .support {
+        flex-direction: column;
+    }
+
+}

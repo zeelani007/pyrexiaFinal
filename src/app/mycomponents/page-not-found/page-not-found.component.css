@@ -1,0 +1,7 @@
+.container {
+    height: 60vh;
+    overflow: hidden;
+}
+img {
+    width: 50%;
+}

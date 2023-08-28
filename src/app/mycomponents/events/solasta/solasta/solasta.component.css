@@ -1,0 +1,99 @@
+.solasta {
+    background: url(../../../../../assets/images/EVENTS/solasta/solista-bg.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: 'budmo', sans-serif;
+    font-size: 5rem !important;
+    color: white; 
+    letter-spacing: .5rem;
+}
+.images {
+    padding: 2rem;
+    width: 40%;
+}
+.images img {
+    border: 10px solid rgb(248, 248, 248);
+    box-shadow: -8px 8px 5px rgba(6, 15, 26, 0.596);
+}
+.content {
+    padding: 2rem;
+    width: 60%;
+}
+.dance {
+    background:linear-gradient(rgba(12, 221, 176, 0.849), rgba(23, 111, 212, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/DANCE.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Music {
+    background:linear-gradient(rgba(12, 221, 176, 0.849), rgba(23, 111, 212, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.drama {
+    background:linear-gradient(rgba(12, 221, 176, 0.849), rgba(23, 111, 212, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/DRAMA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3 {
+    text-shadow: -0px 1rem 5px white;
+}
+.heighlight {
+    font-weight: 600;
+    color: rgb(163, 22, 22);
+}
+
+.star {
+    color: red;
+    font-weight: 600;
+    font-size: large;
+}
+.solista-block {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.breadcrumb {
+    background-color: rgba(192, 24, 150, 0.61);
+    padding: .5rem;
+}
+.breadcrumb-item, .breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+@media screen and (max-width:992px) {
+    li {
+        text-align: start;
+    }
+    .solista-block {
+        flex-direction: column !important;
+    }
+    .images {
+        width: 80%; 
+        margin: auto;
+    }
+    .content-block { 
+        text-align: start;
+        display: flex;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:546px) {
+    .content-block { 
+        text-align: center;
+        display: block;
+    }
+}

@@ -1,0 +1,112 @@
+.velocity {
+    background: url(../../../../../assets/images/EVENTS/velocity/wall.PNG);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.images {
+    padding: 2rem;
+    width: 50%;
+}
+.images img {
+    border: 5px solid white;
+}
+.content {
+    padding: 2rem;
+    width: 50%;
+}
+.cricket {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Cricket.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tabletennis {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/TableTennis.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.basketball {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Basketball.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lawntennis {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/LawnTennis.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chess {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Chess.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vollyball {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Vollyball.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.badminton {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Badminton.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kabaddi {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Kabbadi.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.football {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Football.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.futsal {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/velocity/Futsal.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.star {
+    color: red;
+    font-weight: 600;
+    font-size: large;
+}
+.sports {
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:992px) {
+    .sports {
+        flex-direction: column !important;
+    }
+    .images {
+        width: 80%; 
+        margin: auto;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+.rgtype p {
+    flex: 1;
+}
+.breadcrumb {
+    background-color: rgba(27, 27, 27, 0.61);
+    padding: .5rem;
+}
+.breadcrumb-item, .breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}

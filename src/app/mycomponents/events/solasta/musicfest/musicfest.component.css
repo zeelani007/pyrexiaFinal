@@ -1,0 +1,88 @@
+.velocity {
+    background:linear-gradient(360deg, rgba(5, 212, 195, 0.548), rgba(0, 0, 255, 0.432), rgba(255, 0, 0, 0.459)), url(../../../../../assets/images/EVENTS/velocity/wall.PNG);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.images {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.images img {
+    border: 5px solid white;
+}
+.breadcrumb {
+    background-color: rgba(27, 27, 27, 0.61);
+    padding: .5rem;
+}
+.breadcrumb-item, .breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    padding: 2rem;
+    width: 50%;
+}
+.music1 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music2 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music3 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music4 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music5 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919)) ,url(../../../../../assets/images/EVENTS/solasta/MUSIC5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 2.2rem !important;
+    color: rgb(226, 17, 69);
+}
+
+.star {
+    color: red;
+    font-weight: 600;
+    font-size: large;
+}
+.sports {
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:992px) {
+    .sports {
+        flex-direction: column !important;
+    }
+    .images {
+        width: 80%; 
+        margin: auto;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --royal-blue:#212338;
+}
+@font-face {
+    font-family: budmo;
+    src: url(./assets/fonts/budmojiggler.otf);
+} 
+.breadcrumb li {
+    list-style: none !important;
+}
+@media screen and (max-width:768px) {
+    .breadcrumb {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.ngx-loading-logo {
+    width: 500px !important;
+    height: 500px !important;
+}

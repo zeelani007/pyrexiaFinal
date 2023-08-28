@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Monoton;
+  src: url(../../../assets/fonts/Monoton-Regular.ttf);
+}
+sup {
+  font-size: .8rem !important;
+}
+header {
+    padding: 5.5rem 0;
+    position: relative;
+    background-color: black;
+    height: fit-content;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 8rem !important;
+    z-index: 3;
+    position: relative;
+    text-shadow: -3px 3px solid white;
+    color: white !important;
+  }
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  .block {
+    position: relative;
+  }
+  .btn-danger {
+    border-radius: 0;
+    padding: .5rem 1.5rem !important;
+    background-color: rgba(218, 12, 12, 0.907) !important;
+    box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.992);
+    transition: .4s;
+  }
+  .btn-danger:hover {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.992);
+  }
+  .btn-primary {
+    border-radius: 0;
+    padding: .5rem 1rem !important;
+    background-color: rgba(19, 124, 223, 0.907) !important;
+    box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.992);
+    transition: .4s;
+  }
+  .btn-primary:hover {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.992);
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.558);
+    opacity: .7;
+    z-index: 1;
+  }
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    /* header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    } */
+  
+    header video {
+      display: none;
+    }
+  }
+  
+
+  @media screen and (max-width:992px) {
+    h1 {
+      font-family: 'Monoton', cursive;
+      font-size: 6rem !important;
+      z-index: 3;
+      position: relative;
+      text-shadow: -3px 3px solid white;
+      color: white !important;
+    }
+  }
+  @media screen and (max-width:576px) {
+    h1 {
+      font-family: 'Monoton', cursive;
+      font-size: 3.5rem !important;
+      z-index: 3;
+      position: relative;
+      text-shadow: -3px 3px solid white;
+      color: white !important;
+      margin-bottom: 2rem !important;
+      margin-top: 1rem !important;
+    }
+    .h3 {
+      font-size: 1rem !important;
+    }
+    video {
+      display: none;
+    }
+    header {
+      background: url(../../../assets/images/homebag.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+
+
+  

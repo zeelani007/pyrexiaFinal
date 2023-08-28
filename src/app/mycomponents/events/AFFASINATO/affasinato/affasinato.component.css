@@ -1,0 +1,16 @@
+.affashinato {
+    background: linear-gradient(126deg, rgba(0, 0, 255, 0.733), rgba(255, 0, 0, 0.842), rgba(0, 0, 255, 0.322)),url(../../../../../assets/images/EVENTS/Chronos/Chronosbanner.webp);
+}
+.container {
+    padding: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 20px;
+} 
+.box img {
+    width: 200px;
+    height: 200px;
+}
+img {
+    border: 10px solid white;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,59 @@
+.blocks {
+    align-items: center;
+    padding: 1rem;
+    height: 400px;
+}
+.btn-warning {
+    padding: .5rem 1rem;
+    width: fit-content;
+}
+.blocks h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem !important;
+}
+.blocks p {
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem !important;
+}
+.block1 {
+    background: linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/EVENT1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block2 {
+    background: linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/FASHION.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block3 {
+    background:linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/CULTURAL.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block4 {
+    background:linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/SPORTS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block5 {
+    background:linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/egaming.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block6 {
+    background:linear-gradient(rgba(128, 0, 128, 0.596), rgba(16, 43, 163, 0.671)), url(../../../../assets/images/EVENTS/informals.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blocks:hover{
+    background:linear-gradient(rgba(0, 0, 255, 0.514), rgba(0, 0, 255, 0.404));
+}

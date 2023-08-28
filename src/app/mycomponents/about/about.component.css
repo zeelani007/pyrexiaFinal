@@ -1,0 +1,45 @@
+.imgholder img {
+    border-radius: 30px;
+}
+
+.imgholder {
+    flex: 1;
+}
+.content {
+    flex: 2;
+}
+.dean-desk .imagepart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+} 
+.dean-desk .contentpart {
+    flex: 1;
+} 
+
+
+@media screen and (max-width:992px) {
+    .block2 {
+        text-align: justify;
+        flex-direction: column !important;
+    }
+    .block1 {
+        text-align: justify;
+    }
+    .director-desk {
+        flex-direction: column !important;
+        text-align: justify;
+    }
+    .director-desk img {
+        width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:767px) {
+    .dean-desk {
+        flex-direction: column !important;
+    }
+}

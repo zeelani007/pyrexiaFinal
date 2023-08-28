@@ -1,0 +1,13 @@
+<div class="imageslider p-5 bg-black">
+    <div class="container d-flex flex-column">
+        <h2 class="text-uppercase text-center fw-bolder fs-1 text-white">Event Gallery</h2>
+        <ng-image-slider class=" slider fw-bolder fs-6 d-flex mt-5 mb-3" [images]="imgCollection" #nav 
+        [infinite]="true"
+        [autoSlide]="2"
+        [imageSize]="{width: '365', height: '300'}"
+        [slideImage]="1">    
+        </ng-image-slider>
+        <a class="mt-4 btn btn-primary m-auto fw-bold" routerLink="/gallary">VIEW MORE</a>
+    </div>
+</div>
+

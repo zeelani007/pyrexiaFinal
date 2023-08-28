@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Monoton;
+    src: url(../../../assets/fonts/Monoton-Regular.ttf);
+  }
+.content { 
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background:rgb(3, 3, 3);
+    color: white;
+    padding: 1rem;
+    margin-top: 12rem;
+    /* box-shadow: -10px 10px 9px rgba(85, 173, 173, 0.249),10px 10px 9px rgba(50, 206, 198, 0.249); */
+}
+h2 {
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+h6 {
+    width: 100%;
+}
+.overlay {
+    position: relative;
+    z-index: 1;
+    background-color:transparent;
+}
+.contact {
+    position: relative;
+    /* background:linear-gradient( 120deg, rgb(48, 136, 218),rgba(199, 11, 199, 0.377)); */
+    background-color: black;
+}
+.content div {
+    text-align: left;
+}
+iframe {
+    position: absolute;
+    z-index:0;
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .content div {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

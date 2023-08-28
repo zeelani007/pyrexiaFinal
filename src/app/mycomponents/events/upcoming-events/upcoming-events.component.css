@@ -1,0 +1,54 @@
+.top-event {
+    height: 300px;
+    background:linear-gradient(90deg, rgba(5, 5, 75, 0.945), rgb(88, 5, 88), rgba(5, 5, 75, 0.945));
+    color: white;
+}
+.top-event h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.event-block {
+    padding: 8rem 0;
+    color: white;
+}
+.event1 {
+    background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.637)), url(../../../../assets/images/EVENTS/EVENT1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.event2 {
+    background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.637)), url(../../../../assets/images/EVENTS/EVENT2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.event3 {
+    background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.637)), url(../../../../assets/images/EVENTS/EVENT3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.event4 {
+    background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.637)), url(../../../../assets/images/EVENTS/EVENT4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.event-block h6 {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+.event-block h5 {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+.event-block h2 {
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+}

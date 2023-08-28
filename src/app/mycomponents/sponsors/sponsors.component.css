@@ -1,0 +1,92 @@
+/* OUR CLIENTS SECTION START */
+.Clients {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.Clients h4 {
+  color: var(--Button-hover-c);
+  margin-bottom: 2rem;
+}
+.Clients .container{
+  padding: 2rem 0;
+}
+
+.slider {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo-slider {
+  padding: 10px 0px;
+  overflow: hidden;
+  width: 100%;
+  margin: 1rem auto;
+  position: relative;
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(120, 119, 119, 0.455);
+  backdrop-filter: blur(5px);
+}
+
+.logo-slider:hover div {
+  animation-play-state: paused;
+}
+
+.logo-slider div {
+  display: flex;
+  position: relative;
+  align-items: center;
+  animation: marquee 15s linear infinite;
+  justify-content: space-around;
+}
+
+.logo-slider div img {
+  display: block;
+  min-width: 200px;
+  aspect-ratio: 1;
+  height: 80px;
+  margin: 0 2vw;
+  filter: grayscale(0);
+}
+.logo-slider div img:hover {
+  filter: grayscale(10);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-60%);
+  }
+}
+/* OUR CLIENTS SECTION END */
+
+@media screen and (max-width:579px) {
+.logo-slider div img {
+  display: block;
+  min-width: 150px;
+  aspect-ratio: 1;
+  height: 60px;
+  margin: 0 2vw;
+  filter: grayscale(0);
+}
+}
+@media screen and (max-width:390px) {
+.logo-slider div img {
+  display: block;
+  min-width: 110px;
+  aspect-ratio: 1;
+  height: 50px;
+  margin: 0 2vw;
+  filter: grayscale(0);
+}
+.Clients {
+  padding: 0rem 0;
+}
+.Clients h4 {
+margin-bottom: 0rem;
+}
+}

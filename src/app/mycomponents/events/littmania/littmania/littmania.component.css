@@ -1,0 +1,131 @@
+.velocity {
+    background:linear-gradient(126deg, rgba(255, 0, 0, 0.459),rgba(0, 0, 255, 0.39), rgba(255, 0, 0, 0.466)) ,url(../../../../../assets/images/EVENTS/velocity/wall.PNG);
+    background-position: center;
+    background-repeat: repeat;
+}
+.images {
+    padding: 1REM;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.breadcrumb {
+    background-color: rgba(27, 27, 27, 0.61);
+    padding: .5rem;
+}
+.breadcrumb-item, .breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}
+h3 {
+    font-size: 2.2rem !important;
+    color: rgb(226, 17, 69);
+}
+.images img {
+    border: 5px solid rgba(255, 255, 255, 0.13);
+}
+.content {
+    padding: 2rem;
+}
+.art1 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art2 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art3 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art4 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art5 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art6 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art7 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art8 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art9 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art10 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.art11 {
+    background:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.919));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.star {
+    color: red;
+    font-weight: 600;
+    font-size: large;
+}
+.sports {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:992px) {
+    .sports {
+        flex-direction: column !important;
+    }
+    .blocks {
+        flex-direction: column;
+    }
+    .images {
+        width: 80%; 
+        margin: auto;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+}
